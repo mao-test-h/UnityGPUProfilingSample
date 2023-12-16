@@ -68,7 +68,7 @@ namespace _Examples
         /// 解像度変更ボタンの設定
         /// </summary>
         /// <remarks>
-        /// NOTE: Landscape についてはそこまで考慮してない
+        /// NOTE: Landscape についてはそこまで考慮した実装になっていないので注意
         /// </remarks>
         private void SetUpResolutionEvent()
         {
