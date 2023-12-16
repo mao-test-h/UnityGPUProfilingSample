@@ -67,6 +67,9 @@ namespace _Examples
         /// <summary>
         /// 解像度変更ボタンの設定
         /// </summary>
+        /// <remarks>
+        /// NOTE: Landscape についてはそこまで考慮してない
+        /// </remarks>
         private void SetUpResolutionEvent()
         {
             resolutionText.text = $"Resolution ({_originalResolution.width} x {_originalResolution.height})";
